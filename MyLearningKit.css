@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    /*background-color: lightgreen;*/
+    overflow:auto;
+  }
+  body{
+      text-align: center;
+      background-image: url("background.jpg");
+      background-size: cover;
+  }
+  div{
+      border: 4px solid black;
+      margin-top: 20px;
+  }
+  #problem {
+      margin: auto;
+      margin-top:20px;
+      height: 80px;
+      text-align: left;
+      color:purple;
+      font-family:Luminary, cursive;
+      font-size:13px;
+      padding-left:20px;
+      padding-right:20px;
+      width:90%;
+  }
+
+ 
+img {
+    width: 100%;
+    height: auto;
+    margin-top:5px;
+    padding: 2px;
+    display:none;
+    
+  }
+ .column{
+     margin: auto;
+     margin-top: 20px;
+     height: 360px;
+     float: left;
+     width: 49%;
+  margin-left: 3px;
+  margin-right: 3px;
+     
+  }
+  footer{
+     margin-top: 387px;
+     text-align:center;
+      font-size:15px;
+
+  }
+  button{
+      border: 1px solid black;
+      margin-top: 5px;
+      padding: 5px;
+      border-radius: 10px;
+      background-image: url("background.jpg");
+      background-size: cover;
+     /* background-color: rgb(170, 54, 170);*/
+  }
+  button:hover{
+    /* background-color: rgb(224, 3, 224);*/
+    background-image: url("hover.jpg");
+
+      color: rgb(0, 0, 0);
+      border: 2px solid black;
+      box-shadow: 0 25px 30px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+  button:active {
+   /* background-color: rgb(240, 64, 240);*/
+   background-image: url("active.jpg");
+
+    
+  }
+  
+  
+  
